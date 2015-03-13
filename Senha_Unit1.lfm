@@ -1,0 +1,534 @@
+object FormPrincipal: TFormPrincipal
+  Left = 26
+  Height = 550
+  Top = 20
+  Width = 440
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'LazSenha 1.0.3'
+  ClientHeight = 531
+  ClientWidth = 440
+  Menu = MainMenuSenha
+  LCLVersion = '0.9.29'
+  object ShapeFundoCinza1: TShape
+    Left = 15
+    Height = 450
+    Top = 10
+    Width = 240
+    Brush.Color = clGray
+  end
+  object ShapeFundoBranco1: TShape
+    Left = 16
+    Height = 45
+    Top = 415
+    Width = 238
+    Pen.Style = psClear
+    Visible = False
+  end
+  object ShapeLinha1: TShape
+    Left = 74
+    Height = 450
+    Top = 10
+    Width = 3
+    Brush.Color = clBlack
+    Pen.Style = psClear
+  end
+  object ShapeLinha2: TShape
+    Left = 133
+    Height = 450
+    Top = 10
+    Width = 3
+    Brush.Color = clBlack
+    Pen.Style = psClear
+  end
+  object ShapeLinha3: TShape
+    Left = 192
+    Height = 450
+    Top = 10
+    Width = 3
+    Brush.Color = clBlack
+    Pen.Style = psClear
+  end
+  object ShapeFundoCinza2: TShape
+    Left = 280
+    Height = 450
+    Top = 10
+    Width = 44
+    Brush.Color = clGray
+  end
+  object ShapeFundoBranco2: TShape
+    Left = 281
+    Height = 44
+    Top = 416
+    Width = 43
+    Pen.Style = psClear
+    Visible = False
+  end
+  object ShapeLinha4: TShape
+    Left = 301
+    Height = 450
+    Top = 10
+    Width = 3
+    Brush.Color = clBlack
+    Pen.Style = psClear
+  end
+  object Shape1: TShape
+    Left = 15
+    Height = 2
+    Top = 414
+    Width = 240
+  end
+  object Shape3: TShape
+    Left = 15
+    Height = 2
+    Top = 370
+    Width = 240
+  end
+  object Shape4: TShape
+    Left = 15
+    Height = 2
+    Top = 325
+    Width = 240
+  end
+  object Shape5: TShape
+    Left = 15
+    Height = 2
+    Top = 280
+    Width = 240
+  end
+  object Shape6: TShape
+    Left = 15
+    Height = 2
+    Top = 235
+    Width = 240
+  end
+  object Shape7: TShape
+    Left = 15
+    Height = 2
+    Top = 190
+    Width = 240
+  end
+  object Shape8: TShape
+    Left = 15
+    Height = 2
+    Top = 145
+    Width = 240
+  end
+  object Shape9: TShape
+    Left = 15
+    Height = 2
+    Top = 100
+    Width = 240
+  end
+  object Shape10: TShape
+    Left = 15
+    Height = 2
+    Top = 55
+    Width = 240
+  end
+  object Shape11: TShape
+    Left = 15
+    Height = 45
+    Top = 464
+    Width = 309
+  end
+  object ShapeCor1: TShape
+    Left = 20
+    Height = 36
+    Top = 468
+    Width = 36
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor2: TShape
+    Left = 57
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clYellow
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor3: TShape
+    Left = 95
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clRed
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor4: TShape
+    Left = 133
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clMaroon
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor8: TShape
+    Left = 285
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clAqua
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor7: TShape
+    Left = 247
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clBlue
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor6: TShape
+    Left = 209
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clLime
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object ShapeCor5: TShape
+    Left = 171
+    Height = 36
+    Top = 468
+    Width = 36
+    Brush.Color = clFuchsia
+    DragMode = dmAutomatic
+    Enabled = False
+    Shape = stCircle
+  end
+  object Shape12: TShape
+    Left = 280
+    Height = 2
+    Top = 55
+    Width = 43
+  end
+  object Shape13: TShape
+    Left = 280
+    Height = 2
+    Top = 100
+    Width = 43
+  end
+  object Shape14: TShape
+    Left = 280
+    Height = 2
+    Top = 145
+    Width = 43
+  end
+  object Shape15: TShape
+    Left = 280
+    Height = 2
+    Top = 190
+    Width = 43
+  end
+  object Shape16: TShape
+    Left = 280
+    Height = 2
+    Top = 235
+    Width = 43
+  end
+  object Shape17: TShape
+    Left = 280
+    Height = 2
+    Top = 280
+    Width = 43
+  end
+  object Shape18: TShape
+    Left = 280
+    Height = 2
+    Top = 325
+    Width = 43
+  end
+  object Shape19: TShape
+    Left = 280
+    Height = 2
+    Top = 370
+    Width = 43
+  end
+  object Shape20: TShape
+    Left = 280
+    Height = 2
+    Top = 414
+    Width = 43
+  end
+  object Label1: TLabel
+    Left = 337
+    Height = 24
+    Top = 72
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Pontuação'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelPontuacao: TLabel
+    Left = 337
+    Height = 24
+    Top = 101
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 336
+    Height = 24
+    Top = 143
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Tentativa'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelTentativa: TLabel
+    Left = 336
+    Height = 24
+    Top = 172
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object Shape2: TShape
+    Left = 335
+    Height = 83
+    Top = 217
+    Width = 96
+  end
+  object ShapeSeqCorreta1: TShape
+    Left = 338
+    Height = 21
+    Top = 271
+    Width = 24
+    Brush.Color = clGray
+    Shape = stCircle
+  end
+  object Label3: TLabel
+    Left = 335
+    Height = 24
+    Top = 225
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Sequência'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 335
+    Height = 24
+    Top = 245
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Correta'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    ParentColor = False
+    ParentFont = False
+  end
+  object ShapeSeqCorreta2: TShape
+    Left = 360
+    Height = 21
+    Top = 271
+    Width = 24
+    Brush.Color = clGray
+    Shape = stCircle
+  end
+  object ShapeSeqCorreta3: TShape
+    Left = 382
+    Height = 21
+    Top = 271
+    Width = 24
+    Brush.Color = clGray
+    Shape = stCircle
+  end
+  object ShapeSeqCorreta4: TShape
+    Left = 404
+    Height = 21
+    Top = 271
+    Width = 24
+    Brush.Color = clGray
+    Shape = stCircle
+  end
+  object ButtonProxima: TButton
+    Left = 335
+    Height = 45
+    Top = 464
+    Width = 96
+    Caption = '&Próxima'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    OnClick = ButtonProximaClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object ButtonNovo: TButton
+    Left = 335
+    Height = 45
+    Top = 10
+    Width = 96
+    Caption = '&Novo'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    OnClick = ButtonNovoClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object ShapeSeqCorreta5: TShape
+    Left = 332
+    Height = 24
+    Top = 328
+    Width = 24
+    Brush.Color = clGray
+    Shape = stCircle
+  end
+  object Label5: TLabel
+    Left = 359
+    Height = 14
+    Top = 325
+    Width = 72
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Posição e cor'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 359
+    Height = 14
+    Top = 341
+    Width = 69
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'erradas'
+    ParentColor = False
+  end
+  object ShapeSeqCorreta6: TShape
+    Left = 332
+    Height = 24
+    Top = 370
+    Width = 24
+    Shape = stCircle
+  end
+  object Label7: TLabel
+    Left = 359
+    Height = 14
+    Top = 368
+    Width = 71
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Cor certa e'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 359
+    Height = 14
+    Top = 383
+    Width = 74
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'posição errada'
+    ParentColor = False
+  end
+  object ShapeSeqCorreta7: TShape
+    Left = 332
+    Height = 24
+    Top = 414
+    Width = 24
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label9: TLabel
+    Left = 359
+    Height = 14
+    Top = 411
+    Width = 69
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Posição e cor'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 359
+    Height = 14
+    Top = 427
+    Width = 69
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'certas'
+    ParentColor = False
+  end
+  object MainMenuSenha: TMainMenu
+    left = 208
+    top = 16
+    object MenuItemJogo: TMenuItem
+      Caption = '&Jogo'
+      object MenuItemNovo: TMenuItem
+        Caption = '&Novo'
+        OnClick = MenuItemNovoClick
+      end
+      object MenuItemRegras: TMenuItem
+        Caption = '&Regras'
+        OnClick = MenuItemRegrasClick
+      end
+      object MenuItemSair: TMenuItem
+        Caption = '&Sair'
+        OnClick = MenuItemSairClick
+      end
+    end
+  end
+end

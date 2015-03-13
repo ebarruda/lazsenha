@@ -1,0 +1,42 @@
+{ Isto é automaticamente gerado pelo arquivo de recurso lazarus }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'"'#1#6'Height'#3#5#1#3'Top'#3#175#0#5'Wid'
+  +'th'#3#144#1#7'Caption'#6#5'Form1'#12'ClientHeight'#3#5#1#11'ClientWidth'#3
+  +#144#1#10'LCLVersion'#6#8'0.9.26.2'#0#6'TShape'#6'Shape1'#4'Left'#2'3'#6'Hei'
+  +'ght'#2'P'#3'Top'#2'b'#5'Width'#2'd'#11'Brush.Color'#7#8'clYellow'#12'Pen.Co'
+  +'smetic'#9#0#0#6'TShape'#6'Shape2'#4'Left'#3#224#0#6'Height'#2'P'#3'Top'#2'b'
+  +#5'Width'#2'd'#12'Pen.Cosmetic'#9#0#0#0
+]);
+
+LazarusResources.Add('TFormParabens','FORMDATA',[
+  'TPF0'#13'TFormParabens'#12'FormParabens'#4'Left'#3'W'#1#6'Height'#3#231#0#3
+  +'Top'#3#156#0#5'Width'#3'R'#1#11'BorderIcons'#11#12'biSystemMenu'#0#11'Borde'
+  +'rStyle'#7#8'bsDialog'#7'Caption'#6#8'LazSenha'#12'ClientHeight'#3#231#0#11
+  +'ClientWidth'#3'R'#1#6'OnShow'#7#8'FormShow'#10'LCLVersion'#6#6'0.9.29'#0#6
+  +'TShape'#6'Shape2'#4'Left'#2'h'#6'Height'#2'h'#3'Top'#2'5'#5'Width'#3#128#0#0
+  +#0#6'TShape'#16'ShapeSeqCorreta1'#4'Left'#2's'#6'Height'#2#21#3'Top'#2'v'#5
+  +'Width'#2#24#11'Brush.Color'#7#6'clGray'#5'Shape'#7#8'stCircle'#0#0#6'TLabel'
+  +#6'Label3'#4'Left'#2'x'#6'Height'#2#24#3'Top'#2'F'#5'Width'#2'`'#9'Alignment'
+  +#7#8'taCenter'#8'AutoSize'#8#7'Caption'#6#10'Sequ'#195#170'ncia'#12'Font.Cha'
+  +'rSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#237#9
+  +'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'#7#10'fpVariable'#11'ParentC'
+  +'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2'x'#6'Height'#2#24
+  +#3'Top'#2'Z'#5'Width'#2'`'#9'Alignment'#7#8'taCenter'#8'AutoSize'#8#7'Captio'
+  +'n'#6#7'Correta'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
+  +'ack'#11'Font.Height'#2#237#9'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'
+  +#7#10'fpVariable'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TShape'#16'ShapeS'
+  +'eqCorreta2'#4'Left'#3#142#0#6'Height'#2#21#3'Top'#2'v'#5'Width'#2#24#11'Bru'
+  +'sh.Color'#7#6'clGray'#5'Shape'#7#8'stCircle'#0#0#6'TShape'#16'ShapeSeqCorre'
+  +'ta3'#4'Left'#3#171#0#6'Height'#2#21#3'Top'#2'v'#5'Width'#2#24#11'Brush.Colo'
+  +'r'#7#6'clGray'#5'Shape'#7#8'stCircle'#0#0#6'TShape'#16'ShapeSeqCorreta4'#4
+  +'Left'#3#199#0#6'Height'#2#21#3'Top'#2'v'#5'Width'#2#24#11'Brush.Color'#7#6
+  +'clGray'#5'Shape'#7#8'stCircle'#0#0#7'TBitBtn'#8'BitBtnOk'#4'Left'#2'^'#6'He'
+  +'ight'#2'&'#3'Top'#3#174#0#5'Width'#3#150#0#7'Caption'#6#3'&OK'#7'Default'#9
+  +#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#8'TabOrder'#2#0#0#0#6'TLabel'#6'Label'
+  +'5'#4'Left'#2#13#6'Height'#2#22#3'Top'#2#16#5'Width'#3':'#1#9'Alignment'#7#8
+  +'taCenter'#7'Caption'#6')Parabens! Voc'#195#170' descobriu a combina'#195#167
+  +#195#163'o!'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#237#9'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'#7#10
+  +'fpVariable'#11'ParentColor'#8#10'ParentFont'#8#0#0#0
+]);
